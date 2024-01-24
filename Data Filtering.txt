@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Read CSV file
+data = pd.read_csv('your_data.csv')
+
+# Filter data based on a condition
+filtered_data = data[data['Column'] > 50]
+print(filtered_data)
